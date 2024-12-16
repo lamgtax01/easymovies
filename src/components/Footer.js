@@ -14,10 +14,10 @@ export const Footer = () => {
               <NavLink href="#" className="hover:underline me-4 md:me-6">Privacy Policy</NavLink>
           </li>
           <li>
-              <a href="https://www.linkedin.com/in/lambert-dongfack-691ba022/" target='_blank' rel='noteferrer' className="hover:underline me-4 md:me-6">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/lambert-dongfack-691ba022/" target='_blank' rel="noopener noreferrer" className="hover:underline me-4 md:me-6">LinkedIn</a>
           </li>
           <li>
-              <NavLink href="https://www.linkedin.com/in/lambert-dongfack-691ba022/" target='_blank' rel='noteferrer' className="hover:underline">Contact</NavLink>
+              <NavLink href="https://www.linkedin.com/in/lambert-dongfack-691ba022/" target='_blank' rel="noopener noreferrer" className="hover:underline">Contact</NavLink>
           </li>
         </ul>
       </div>
