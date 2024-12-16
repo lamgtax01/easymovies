@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom"
 import Backup from "../assets/images/backup.png";
 import { useTitle } from "../Hooks/useTitle";
 
@@ -14,7 +13,7 @@ export const MovieDetail = () => {
       const json = await response.json()
       setMovie(json);
     }
-    fetchMovie();
+    fetchMovie(params.id);
   }, [] )
 
   const pageTitle = useTitle(`${movie.title}`);
